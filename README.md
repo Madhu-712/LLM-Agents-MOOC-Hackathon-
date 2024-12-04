@@ -42,11 +42,7 @@ This repository contains a flight-tracking application that provides  flight inf
    Hackathon-/edit/main/README.md
      
    cd LLM-Agents-MOOC
-2. Install dependencies:
 
-bash
-Copy code
-pip install -r requirements.txt
 
  2.  Install dependencies:
 
@@ -95,7 +91,7 @@ Modify config.py to customize default parameters like API timeouts or logging le
 8.Contributing
 We welcome contributions! Here's how you can help:
 
-9.Fork the repository.
+Fork the repository.
 Create a feature branch:
 bash
 git checkout -b feature-name  
@@ -106,6 +102,7 @@ bash
 git push origin feature-name  
 
 Open a pull request.
+
 License
 This project is licensed under the MIT License.
 

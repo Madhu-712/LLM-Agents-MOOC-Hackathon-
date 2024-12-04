@@ -67,7 +67,7 @@ python test_api.py
 
 
 Usage
-Start the Application
+5.Start the Application
 Run the main script to start the app:
 
 bash
@@ -80,25 +80,25 @@ Track a flight by number:
 Check flight schedules:
 "What flights are departing from JFK in the next hour?"
 
-Environment Variables
+6.Environment Variables
 TAVILY_API_KEY: Tavily API key for accessing flight data.
 GOGGLE_API_KEY: LLM API key for natural language processing.
-Settings
+
+7.Settings
 Modify config.py to customize default parameters like API timeouts or logging levels.
 
-Contributing
+8.Contributing
 We welcome contributions! Here's how you can help:
 
-Fork the repository.
+9.Fork the repository.
 Create a feature branch:
 bash
 git checkout -b feature-name  
 
-
 Commit your changes and push:
 bash
-git push origin feature-name  
 
+git push origin feature-name  
 
 Open a pull request.
 License

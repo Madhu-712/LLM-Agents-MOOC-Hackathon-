@@ -45,73 +45,8 @@ This repository contains a flight-tracking application that provides  flight inf
 
  2.  Install dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt  
-Set up your environment variables for the API keys (see below).
 
-3.API Key Setup
-Sign up on the Tavily API and retrieve your API key.
-
-4.Create a .env file in the project root and add:
-
-env
-Copy code
-TAVILY_API_KEY=your_api_key  
-OPENAI_API_KEY=your_llm_api_key  
-5.Ensure your keys are valid by running the API test:
-
-bash
-Copy code
-python test_api.py  
-Usage
-6.Start the Application
-Run the main script to start the app:
-
-bash
-Copy code
-python app.py  
-7.Example Queries
-Track a flight by number:
-"Where is flight AA123 currently?"
-Check flight schedules:
-"What flights are departing from JFK in the next hour?"
-
-Environment Variables
-TAVILY_API_KEY: Tavily API key for accessing flight data.
-OPENAI_API_KEY: LLM API key for natural language processing.
-Settings
-Modify config.py to customize default parameters like API timeouts or logging levels.
-Contributing
-We welcome contributions! Here's how you can help:
-
-Fork the repository.
-Create a feature branch:
-bash
-Copy code
-git checkout -b feature-name  
-Commit your changes and push:
-bash
-Copy code
-git push origin feature-name  
-Open a pull request.
-License
-This project is licensed under the MIT License.
-
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check
-
-2.#Install dependencies 
-pip install -r requirements.txt  
 
 3.Set up your environment variables for the API keys (see below).
 
@@ -121,21 +56,24 @@ Sign up on the Tavily API and retrieve your API key.
 Create a .env file in the project root and add:
 
 env
-Copy code
+
 TAVILY_API_KEY=your_api_key  
 GEMINI_API_KEY=your_llm_api_key  
-Ensure your keys are valid by running the API test:
+
+4.Ensure your keys are valid by running the API test:
 
 bash
-Copy code
 python test_api.py  
+
+
 Usage
 Start the Application
 Run the main script to start the app:
 
 bash
-Copy code
 python app.py  
+
+
 Example Queries
 Track a flight by number:
 "Where is flight AA123 currently?"
@@ -154,12 +92,14 @@ We welcome contributions! Here's how you can help:
 Fork the repository.
 Create a feature branch:
 bash
-Copy code
 git checkout -b feature-name  
+
+
 Commit your changes and push:
 bash
-Copy code
 git push origin feature-name  
+
+
 Open a pull request.
 License
 This project is licensed under the MIT License.

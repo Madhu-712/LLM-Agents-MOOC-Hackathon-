@@ -42,6 +42,11 @@ This repository contains a flight-tracking application that provides  flight inf
    Hackathon-/edit/main/README.md
      
    cd LLM-Agents-MOOC
+2. Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
 
  2.  Install dependencies:
 

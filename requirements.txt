@@ -1,3 +1,18 @@
+# requirements file updated to version with more state data
+
+#Python 3.11.1
+# sudo apt-get install python3-dev graphviz libgraphviz-dev pkg-config
+
+python-dotenv~=1.0.1
+tavily-python==0.3.3
+beautifulsoup4==4.12.3
+langgraph==0.0.53
+langchain_openai==0.1.7
+langchain==0.2.0
+aiosqlite==0.20.0
+pygments==2.17.2
+pygraphviz==1.13
+gradio==4.31.3
 langchain = 0.2.11
 langchain-community>=0.2.11
 langchain-core<0.4.0,>=0.3.21

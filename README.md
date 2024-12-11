@@ -1,4 +1,4 @@
-# Flight Tracker Langchain ReAct Agent powered by GEMINI LLM and Tavily and other real time API's.
+# Flight Tracker Langchain ReAct Agent ,Powered by GEMINI LLM and Tavily and other real time API's.
 
 ![Flight Tracker Banner](https://images.app.goo.gl/8zDroDCdbjAYZJfW6)
 

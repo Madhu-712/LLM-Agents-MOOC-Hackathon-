@@ -34,7 +34,8 @@ Url of the API:https://api.aviationstack.com/v1/flights
 ### Prerequisites  
 - Python 3.8 or later  
 - pipenv or pip  
-- Tavily API account for access credentials  
+- Tavily API account for access credentials
+- Aviationstack API account for getting real time flight data information  
 
 ### Steps  
 1. Clone the repository:  
@@ -62,6 +63,7 @@ env
 
 TAVILY_API_KEY=your_api_key  
 GEMINI_API_KEY=your_llm_api_key  
+ACCESS_KEY =your_api_key
 
 4.Ensure your keys are valid by running the API test:
 
@@ -110,7 +112,14 @@ This project is licensed under the MIT License.
 
 Other References:
 1.https://medium.com/@madhu.712/uc-berkeley-mooc-hackathon-2024-building-a-flight-agent-with-gemini-powered-by-tavily-api-e2c8168d298d
+
 2.https://devpost.com/submit-to/22283-llm-agents-mooc-hackathon/manage/submissions/590914-gemini-flight-status-agents/project_details/edit
+
+3.Other Real time flight API's
+-https://rapidapi.com/aedbx-aedbx/api/aerodatabox
+-https://aviation-edge.com/?gad_source=1&gclid=CjwKCAiAjeW6BhBAEiwAdKltMqLEJA8rI0n5KWNJuHdyYe79eylRZI30rJRKIyYjgN_Vg4HRh28_RBoCIEwQAvD_BwE
+-Specific api's from a flight carrier 
+https://api.emirates.com/v2/flights
 
 
 

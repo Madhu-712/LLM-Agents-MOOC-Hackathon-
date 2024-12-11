@@ -1,0 +1,38 @@
+Flight Agent User Guide
+This guide explains how to interact with the Flight Agent, an AI-powered tool designed to
+provide you with real-time flight information.
+Getting Started:
+Currently, the Flight Agent is a prototype developed for a hackathon and is not yet publicly
+available. This guide outlines the intended functionality for future public release. Imagine
+interacting with the agent through a chat interface, similar to messaging apps.
+Interacting with the Flight Agent:
+You can ask the Flight Agent questions about flights using natural language. Here are some
+examples:
+● Flight Status: "What is the status of flight UA123?"
+● Specific Information: "What time is flight AA456 scheduled to arrive?"
+● Weather integration queries: “How is the weather at Sanfrancisco on Dec
+5,2024?Is it ideal for the flight EK226 to take off at 8.30 pm?
+● Real-time Tracking (Future Feature): "Where is flight DL789 currently?"
+● Travel Disruptions (Future Feature): "Is my flight BA246 delayed?"
+● Airport Information (Future Feature): "What gate does flight AF312 depart from?"
+Tips for Effective Queries:
+● Be as specific as possible with your flight information (e.g., airline code and flight
+number).
+● Use clear and concise language.
+● For future features, you can ask more complex questions involving layovers,
+connections, and other travel-related information.
+Example Interaction:
+User: "What is the status of flight UA123?"
+Flight Agent: "Flight UA123 is scheduled to depart from San Francisco International Airport
+(SFO) at 10:00 AM PST and arrive at John F. Kennedy International Airport (JFK) at 5:00 PM
+EST. The flight is currently on time."
+Future Enhancements:
+We are actively working on enhancing the Flight Agent with features such as:
+● Real-time flight tracking
+● Integration with other travel services (e.g., hotels, car rentals)
+● More sophisticated responses to complex queries
+● Direct integration with airline APIs
+Feedback:
+As we continue to develop the Dl8ght Agent,your feedback is invaluable. Please share any
+suggestions or issues you encounter to help us improve the experience. (Contact
+information will be provided upon public release.)

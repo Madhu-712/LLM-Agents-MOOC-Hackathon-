@@ -1,4 +1,4 @@
-# Flight Tracker powered by GEMINI LLM and Tavily API.
+# Flight Tracker powered by GEMINI LLM and Tavily and other real time API's.
 
 ![Flight Tracker Banner](https://images.app.goo.gl/8zDroDCdbjAYZJfW6)
 

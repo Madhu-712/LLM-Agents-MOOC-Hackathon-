@@ -4,10 +4,12 @@
 
 ## Overview  
 This repository contains a flight-tracking application that provides  flight information such as source, destination, departure, and arrival times. The app leverages the **Tavily API** for flight data and an **LLM (Large Language Model)** to offer intuitive natural language queries and enhanced user interactions.
+I have also added  real time API's integration to fetch dynamic information about flights .
+Integrate with Real time API 
+aviationstack.com
+Url of the API:https://api.aviationstack.com/v1/flights
 
----
-
-## Features  
+-## Features  
 - **Flight Status**: Track flights source and destination  information  
 - **Natural Language Queries**: Ask questions like, *"What's the status of flight ABC123?"*  
 - **Comprehensive Flight Details**: Source, destination, airline, delays, and more.  
@@ -106,7 +108,9 @@ Open a pull request.
 License
 This project is licensed under the MIT License.
 
-
+Other References:
+1.https://medium.com/@madhu.712/uc-berkeley-mooc-hackathon-2024-building-a-flight-agent-with-gemini-powered-by-tavily-api-e2c8168d298d
+2.https://devpost.com/submit-to/22283-llm-agents-mooc-hackathon/manage/submissions/590914-gemini-flight-status-agents/project_details/edit
 
 
 

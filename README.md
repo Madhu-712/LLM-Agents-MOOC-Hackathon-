@@ -1,9 +1,11 @@
-# Flight Tracker powered by GEMINI LLM and Tavily and other real time API's.
+# Flight Tracker Langchain ReAct Agent powered by GEMINI LLM and Tavily and other real time API's.
 
 ![Flight Tracker Banner](https://images.app.goo.gl/8zDroDCdbjAYZJfW6)
 
 ## Overview  
-This repository contains a flight-tracking application that provides  flight information such as source, destination, departure, and arrival times. The app leverages the **Tavily API** for flight data and an **LLM (Large Language Model)** to offer intuitive natural language queries and enhanced user interactions.
+This repository contains a flight-tracking application that provides  flight information such as source, destination, departure, and arrival times.
+It's ReAct Agent (Reason +Action) which executes in a loop.It's built using Langchain framework.
+The app leverages the **Tavily API** for flight data and an **LLM (Large Language Model)** to offer intuitive natural language queries and enhanced user interactions.
 I have also added  real time API's integration to fetch dynamic information about flights .
 Integrate with Real time API 
 aviationstack.com

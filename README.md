@@ -152,6 +152,12 @@ Other References:
 4.Specific api's from a flight carrier 
 https://api.emirates.com/v2/flights
 
+5. Real time Weather API'S
+ https://www.weatherapi.com
+
+6. Google search Serp API's to get hotel information
+https://serpapi.com/google-hotels-api
+
 
 
 

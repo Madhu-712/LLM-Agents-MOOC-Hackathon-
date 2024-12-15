@@ -18,12 +18,15 @@ It's built using Langchain framework.
 The app leverages the **Tavily API** for flight data and an **LLM (Large Language Model)** to offer intuitive natural language queries and enhanced user interactions.
 
 I have also added  Real time API's integration to fetch dynamic information about flights .
-Integrate with Real time API 
+1.Integrate with Real time API 
 aviationstack.com
 Url of the API:https://api.aviationstack.com/v1/flights
 
-Integrate with Real time Weather API'S  weatherapi.com to get updates on weather information .
+2.Integrate with Real time Weather API'S  weatherapi.com to get updates on weather information .
 API:https://api.weatherapi.com/v1/
+
+3.Integrate with google search serp API to get hotel information  
+API:https://serpapi.com/google-hotels-api
 
 -## Features  
 - **Flight Status**: Track flights source and destination  information  
@@ -83,6 +86,7 @@ TAVILY_API_KEY: Tavily API key for accessing flight data.
 GOGGLE_API_KEY: LLM API key for natural language processing.
 ACCESS_KEY:your_api_key(aviationstack API key) 
 WEATHER_API_KEY="your_api_key (weatherapi)"
+SERP_API_KEY="your_api_key(serp API key)"
 
 4.Ensure your keys are valid by running the API test:
 
@@ -111,6 +115,8 @@ Check flight schedules:
 -"What's the iata code of source and destination airport of flight BA3329?"
 
 -"What is estimated arrival and departure time of flight VA6251.What is weather at destination? Name few hotels close to destination airport?. "
+
+-Suggest a hotel close to airport if I have to board a flight CA1696 at 16.00 on 2024/12/16.?
 
 6.Settings
 Modify config.py to customize default parameters like API timeouts or logging levels.

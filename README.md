@@ -22,8 +22,8 @@ Integrate with Real time API
 aviationstack.com
 Url of the API:https://api.aviationstack.com/v1/flights
 
-Integrate with Real time Weather API'S  weather.com
-link:http://api.weatherapi.com/v1/
+Integrate with Real time Weather API'S  weatherapi.com to get updates on weather information .
+API:https://api.weatherapi.com/v1/
 
 -## Features  
 - **Flight Status**: Track flights source and destination  information  
@@ -51,7 +51,8 @@ link:http://api.weatherapi.com/v1/
 - Python 3.8 or later  
 - pipenv or pip  
 - Tavily API account for access credentials
-- Aviationstack API account for getting real time flight data information  
+- Aviationstack API account for getting real time flight data information
+- weather API account for getting access to weather info.
 
 ### Steps  
 1. Clone the repository:  
@@ -90,6 +91,7 @@ python test_api.py
 
 
 Usage
+
 5.Start the Application
 Run the main script to start the app:
 
@@ -97,11 +99,18 @@ bash
 python app.py  
 
 
-Example Queries
+Example Queries:
+
 Track a flight by number:
-"Where is flight AA123 currently?"
+
+-"Where is flight AA123 currently?"
 Check flight schedules:
-"What flights are departing from JFK in the next hour?"
+
+-"What flights are departing from JFK in the next hour?"
+
+-"What's the iata code of source and destination airport of flight BA3329?"
+
+-"What is estimated arrival and departure time of flight VA6251.What is weather at destination? Name few hotels close to destination airport?. "
 
 6.Settings
 Modify config.py to customize default parameters like API timeouts or logging levels.

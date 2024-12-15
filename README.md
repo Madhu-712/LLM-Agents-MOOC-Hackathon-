@@ -22,6 +22,9 @@ Integrate with Real time API
 aviationstack.com
 Url of the API:https://api.aviationstack.com/v1/flights
 
+Integrate with Real time Weather API'S  weather.com
+link:http://api.weatherapi.com/v1/
+
 -## Features  
 - **Flight Status**: Track flights source and destination  information  
 - **Natural Language Queries**: Ask questions like, *"What's the status of flight ABC123?"*  
@@ -73,10 +76,12 @@ Sign up on the Tavily API and retrieve your API key.
 Create a .env file in the project root and add:
 
 env
+Environment Variables
 
-TAVILY_API_KEY=your_api_key  
-GEMINI_API_KEY=your_llm_api_key  
-ACCESS_KEY =your_api_key(aviationstack API key)
+TAVILY_API_KEY: Tavily API key for accessing flight data.
+GOGGLE_API_KEY: LLM API key for natural language processing.
+ACCESS_KEY:your_api_key(aviationstack API key) 
+WEATHER_API_KEY="your_api_key (weatherapi)"
 
 4.Ensure your keys are valid by running the API test:
 
@@ -98,14 +103,10 @@ Track a flight by number:
 Check flight schedules:
 "What flights are departing from JFK in the next hour?"
 
-6.Environment Variables
-TAVILY_API_KEY: Tavily API key for accessing flight data.
-GOGGLE_API_KEY: LLM API key for natural language processing.
-
-7.Settings
+6.Settings
 Modify config.py to customize default parameters like API timeouts or logging levels.
 
-8.Contributing
+7.Contributing
 We welcome contributions! Here's how you can help:
 
 Fork the repository.
@@ -130,6 +131,7 @@ Other References:
 
 3.Other Real time flight API's
 -https://rapidapi.com/aedbx-aedbx/api/aerodatabox
+
 -https://aviation-edge.com/?gad_source=1&gclid=CjwKCAiAjeW6BhBAEiwAdKltMqLEJA8rI0n5KWNJuHdyYe79eylRZI30rJRKIyYjgN_Vg4HRh28_RBoCIEwQAvD_BwE
 
 4.Specific api's from a flight carrier 

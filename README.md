@@ -29,9 +29,17 @@ API:https://api.weatherapi.com/v1/
 API:https://serpapi.com/google-hotels-api
 
 -## Features  
-- **Flight Status**: Track flights source and destination  information  
-- **Natural Language Queries**: Ask questions like, *"What's the status of flight ABC123?"*  
-- **Comprehensive Flight Details**: Source, destination, airline, delays, and more.  
+- **Flight Status**: Track flights source,destination,gate,terminal,delay information etc.
+  
+- **Weather Status**: Track real time weather info daywise,hourwise and time wise .Is it ideal for take off? Temperature,humidity, windspeed,rainfall etc.
+  
+- **Hotel Status**: Track hotel info availability close to airport,distance ,proximity to major destinations,shopping mall etc .
+  
+- **Natural Language Queries**: Ask questions like, *"What's the status of flight ABC123?"*
+- *"what's the estimated arrival and departure time of flight CA768?"*
+- *"what's the weather at destination airport for flight XYZ123 today.Iata code of airport"
+
+- **Comprehensive Flight Details**: Source, destination, airline,gate, delays,terminal,scheduled arrival/departure and estimated arrival/departure time more,arrival/departure airport,airline info,iata code,airline code.
 
 - **Scalable Backend**: Modular architecture ready for enhancements.  
 
@@ -56,6 +64,7 @@ API:https://serpapi.com/google-hotels-api
 - Tavily API account for access credentials
 - Aviationstack API account for getting real time flight data information
 - weather API account for getting access to weather info.
+- Google hotel serp API to get hotels info.
 
 ### Steps  
 1. Clone the repository:  

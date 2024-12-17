@@ -36,8 +36,12 @@ API:https://serpapi.com/google-hotels-api
 - **Hotel Status**: Track hotel info availability close to airport,distance ,proximity to major destinations,shopping mall etc .
   
 - **Natural Language Queries**: Ask questions like, *"What's the status of flight ABC123?"*
+
 - *"what's the estimated arrival and departure time of flight CA768?"*
-- *"what's the weather at destination airport for flight XYZ123 today.Iata code of airport"
+
+- *"what's the weather at destination airport for flight XYZ123 today.Iata code of airport?"*
+
+- *"I am arriving by flight ASD678 today.Suggest a reasonable price hotel close to the airport with pool,cafe and wifi.?"*
 
 - **Comprehensive Flight Details**: Source, destination, airline,gate, delays,terminal,scheduled arrival/departure and estimated arrival/departure time more,arrival/departure airport,airline info,iata code,airline code.
 
